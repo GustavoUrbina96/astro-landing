@@ -7,5 +7,5 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://GustavoUrbina96.github.io',
-  base: 'astro-landing',
+  base: '/astro-landing',
 });
